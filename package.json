@@ -1,0 +1,17 @@
+{
+  "name": "firestorage",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "firestorage": "./bin/firestorage"
+  },
+  "author": "piou",
+  "license": "ISC",
+  "dependencies": {
+    "gauge": "^2.6.0",
+    "mime-types": "^2.1.11",
+    "request": "^2.74.0"
+  }
+}

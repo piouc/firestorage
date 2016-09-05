@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+const fs = require('fs')
+const upload = require('../index.js')
+
+const filePath = process.argv[2]
+
+const req = upload(filePath, (err, url, pass) => {
+	if(err) throw err
+	console.log(url)
+	console.log(pass)
+})
